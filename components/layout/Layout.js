@@ -14,7 +14,7 @@ export default function Layout({ children, settings }) {
         <meta property="og:image" content={settings.general.openGraphImage} />
         <meta property="og:url" content={settings.general.siteUrl} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href={settings.general.favicon} />
+        
       </Head>
       <div className="min-h-screen flex flex-col">
         {settings.sections.topRibbon.enabled && (

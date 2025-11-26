@@ -65,7 +65,7 @@ export default function Home({ settings }) {
             ))}
           </div>
           <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-8 h-64 md:h-96 flex items-center justify-center">
-            <p className="text-gray-400 text-center">
+            {/*<p className="text-gray-400 text-center">
               {settings.sections.about.image && (
                 <img
                   src={settings.sections.about.image}
@@ -74,7 +74,7 @@ export default function Home({ settings }) {
                 />
               )}
               {!settings.sections.about.image && 'Imagem sobre a empresa'}
-            </p>
+            </p>*/}
           </div>
         </div>
       </PageSection>
