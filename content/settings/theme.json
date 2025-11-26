@@ -1,0 +1,22 @@
+{
+  "colors": {
+    "brand": "#3cb8ff",
+    "brandDark": "#2a9fd9",
+    "background": "#ffffff",
+    "darkBackground": "#0f0f0f",
+    "text": "#111111",
+    "textDark": "#eeeeee"
+  },
+  "header": {
+    "sticky": true,
+    "transparent": false,
+    "logoAlign": "left",
+    "showThemeToggle": true
+  },
+  "footer": {
+    "showSocial": true,
+    "showNewsletter": false,
+    "copyright": "© 2025 ClimaTech. Todos os direitos reservados."
+  }
+}
+

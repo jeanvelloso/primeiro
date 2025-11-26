@@ -1,0 +1,149 @@
+{
+  "topRibbon": {
+    "enabled": true,
+    "message": "❄️ Promoção Especial: Limpeza Completa por R$ 89,90 - Válido até o final do mês!",
+    "closeable": true
+  },
+  "hero": {
+    "title": "Ar Condicionado Funcionando Perfeitamente o Ano Todo",
+    "subtitle": "Manutenção preventiva, limpeza profissional e reparos rápidos. Técnicos especializados prontos para atender você com agilidade e garantia.",
+    "ctaPrimary": "Solicitar Orçamento",
+    "ctaSecondary": "Falar no WhatsApp",
+    "image": "/hero-image.png",
+    "stats": [
+      { "number": "2.500+", "label": "Clientes Atendidos" },
+      { "number": "98%", "label": "Satisfação" },
+      { "number": "24h", "label": "Atendimento Rápido" }
+    ]
+  },
+  "about": {
+    "title": "Especialistas em Climatização",
+    "content": "Com mais de 10 anos de experiência no mercado, a ClimaTech é referência em manutenção e reparo de ar condicionado. Nossa equipe de técnicos especializados está sempre pronta para garantir que seu equipamento funcione com máxima eficiência e economia de energia.\n\nOferecemos serviços completos de limpeza, manutenção preventiva, reparos e instalação. Trabalhamos com todas as marcas e modelos, sempre com garantia e transparência nos nossos serviços.\n\nNosso compromisso é proporcionar conforto térmico e qualidade do ar para sua casa ou empresa, com atendimento rápido e profissional.",
+    "image": "/about-image.png"
+  },
+  "features": {
+    "title": "Por Que Escolher a ClimaTech?",
+    "subtitle": "Serviços de qualidade que fazem a diferença",
+    "items": [
+      {
+        "icon": "FiZap",
+        "title": "Atendimento Rápido",
+        "description": "Agendamento flexível e atendimento em até 24 horas para emergências. Sua comodidade é nossa prioridade."
+      },
+      {
+        "icon": "FiShield",
+        "title": "Garantia Total",
+        "description": "Todos os nossos serviços vêm com garantia. Trabalhamos com peças originais e técnicos certificados."
+      },
+      {
+        "icon": "FiStar",
+        "title": "Técnicos Especializados",
+        "description": "Equipe altamente qualificada e treinada nas principais marcas do mercado. Experiência comprovada."
+      },
+      {
+        "icon": "FiDollarSign",
+        "title": "Preços Justos",
+        "description": "Orçamento gratuito e transparente. Sem surpresas ou custos escondidos. Você sabe quanto vai pagar."
+      },
+      {
+        "icon": "FiTool",
+        "title": "Serviço Completo",
+        "description": "Limpeza, manutenção, reparos e instalação. Tudo que você precisa em um só lugar."
+      },
+      {
+        "icon": "FiCheckCircle",
+        "title": "Economia de Energia",
+        "description": "Manutenção regular reduz o consumo de energia em até 30%, economizando na sua conta de luz."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Nossos Serviços e Preços",
+    "subtitle": "Escolha o serviço ideal para suas necessidades",
+    "plans": [
+      {
+        "name": "Limpeza Básica",
+        "price": "R$ 89",
+        "period": "",
+        "features": [
+          "Limpeza dos filtros",
+          "Higienização das serpentinas",
+          "Verificação de funcionamento",
+          "Relatório técnico"
+        ],
+        "cta": "Solicitar Agora",
+        "featured": false
+      },
+      {
+        "name": "Manutenção Completa",
+        "price": "R$ 149",
+        "period": "",
+        "features": [
+          "Limpeza completa interna e externa",
+          "Troca de filtros (se necessário)",
+          "Verificação de gás e pressão",
+          "Lubrificação de componentes",
+          "Teste completo de funcionamento",
+          "Garantia de 90 dias"
+        ],
+        "cta": "Mais Popular",
+        "featured": true
+      },
+      {
+        "name": "Manutenção Anual",
+        "price": "R$ 399",
+        "period": "/ano",
+        "features": [
+          "4 manutenções completas no ano",
+          "Atendimento prioritário",
+          "Desconto em reparos",
+          "Suporte técnico 24/7",
+          "Garantia estendida",
+          "Economia de até 30%"
+        ],
+        "cta": "Melhor Custo-Benefício",
+        "featured": false
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "O Que Nossos Clientes Dizem",
+    "items": [
+      {
+        "name": "Carlos Mendes",
+        "role": "Proprietário, Residencial",
+        "avatar": "",
+        "rating": 5,
+        "text": "Serviço excelente! O técnico foi muito profissional, explicou tudo que foi feito e deixou o ar condicionado funcionando perfeitamente. Recomendo!"
+      },
+      {
+        "name": "Ana Paula Silva",
+        "role": "Gerente, Empresa Comercial",
+        "avatar": "",
+        "rating": 5,
+        "text": "Contratamos a manutenção anual e foi a melhor decisão. Economizamos muito na conta de luz e os equipamentos estão sempre em perfeito estado."
+      },
+      {
+        "name": "Roberto Santos",
+        "role": "Diretor, Escritório",
+        "avatar": "",
+        "rating": 5,
+        "text": "Atendimento rápido e eficiente. Resolveram um problema que outras empresas não conseguiram. Profissionais de verdade!"
+      },
+      {
+        "name": "Mariana Costa",
+        "role": "Proprietária, Loja",
+        "avatar": "",
+        "rating": 5,
+        "text": "Preço justo, serviço de qualidade e garantia. Tudo que eu precisava. Já indiquei para vários amigos e todos ficaram satisfeitos."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para Ter Seu Ar Condicionado Funcionando Perfeitamente?",
+    "subtitle": "Solicite seu orçamento gratuito agora mesmo. Atendimento rápido e profissionais especializados.",
+    "button": "Solicitar Orçamento Grátis",
+    "secondaryText": "Sem compromisso. Orçamento rápido e transparente."
+  }
+}
+
