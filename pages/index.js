@@ -4,6 +4,7 @@ import CtaButton from '../components/ui/CtaButton';
 import FeatureCard from '../components/ui/FeatureCard';
 import PricingCard from '../components/ui/PricingCard';
 import TestimonialCard from '../components/ui/TestimonialCard';
+import Image from 'next/image';
 
 export default function Home({ settings }) {
   return (
@@ -11,9 +12,26 @@ export default function Home({ settings }) {
       {/* HERO */}
       <PageSection
         id="hero"
-        bgColor="bg-gradient-to-br from-brand to-brandDark text-white"
+        bgColor="relative overflow-hidden bg-gradient-to-br from-brand to-brandDark text-white"
         vPadding="py-20 md:py-32"
+        hPadding={
+          settings.sections.hero.image
+            ? 'pr-4 md:pr-8 pl-32 sm:pl-40 md:pl-56 lg:pl-80'
+            : 'px-4 md:px-8'
+        }
       >
+        {settings.sections.hero.image && (
+          <div className="absolute left-0 top-0 h-full w-28 sm:w-36 md:w-52 lg:w-72">
+            <Image
+              src={settings.sections.hero.image}
+              alt={settings.business.brandName}
+              fill
+              priority
+              sizes="(max-width: 640px) 112px, (max-width: 768px) 144px, (max-width: 1024px) 208px, 288px"
+              className="object-cover"
+            />
+          </div>
+        )}
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             {settings.sections.hero.title}
