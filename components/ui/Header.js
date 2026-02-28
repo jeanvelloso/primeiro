@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
+import Image from 'next/image';
 import CtaButton from './CtaButton';
 
 export default function Header({ settings }) {
@@ -42,9 +43,16 @@ export default function Header({ settings }) {
             <a
               href="#hero"
               onClick={(e) => handleNavClick(e, '#hero')}
-              className="text-2xl font-bold text-gray-900 dark:text-white hover:text-brand transition-colors"
+              className="flex items-center h-12 md:h-16"
             >
-              {settings.business.brandName}
+              <Image
+                src="/logo.png"
+                alt={settings.business.brandName}
+                width={200}
+                height={64}
+                className="h-full w-auto object-contain"
+                priority
+              />
             </a>
           </div>
 
