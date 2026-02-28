@@ -43,13 +43,13 @@ export default function Header({ settings }) {
             <a
               href="#hero"
               onClick={(e) => handleNavClick(e, '#hero')}
-              className="flex items-center h-12 md:h-16"
+              className="flex items-center h-36 md:h-48"
             >
               <Image
                 src="/logo.png"
                 alt={settings.business.brandName}
-                width={200}
-                height={64}
+                width={600}
+                height={192}
                 className="h-full w-auto object-contain"
                 priority
               />
